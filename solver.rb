@@ -7,5 +7,7 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(num); end
+  def fizzbuzz(num)
+    
+  end
 end
