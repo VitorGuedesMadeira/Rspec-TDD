@@ -1,13 +1,11 @@
 class Solver
-  def factorial(n)
-    if n.negative?
-      raise StandardError, 'Negative value Error'
-    else
-      (1..n).reduce(1, :*)
-    end
+  def factorial(num)
+    num.negative? ? (raise StandardError, 'Negative value Error') : (1..num).reduce(1, :*)
   end
 
-  def reverse(word); end
+  def reverse(word)
+    word.reverse
+  end
 
-  def fizzbuzz(n); end
+  def fizzbuzz(num); end
 end
