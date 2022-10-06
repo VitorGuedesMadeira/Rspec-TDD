@@ -8,6 +8,6 @@ describe "Solver" do
     end
 
     it "Should raise an error when a number < 0 is passed" do
-        expect { solver.factorial(-5) }.to raise_error
+        expect { solver.factorial(-5) }.to raise_error("Negative value Error")
     end
 end

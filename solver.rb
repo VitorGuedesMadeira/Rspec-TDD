@@ -1,6 +1,10 @@
 class Solver
     def factorial(n)
-        (1..n).reduce(1, :*)
+        if(n < 0)
+            raise StandardError,"Negative value Error"
+        else
+          (1..n).reduce(1, :*)
+        end
     end
 
     def reverse(word)
