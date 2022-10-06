@@ -37,15 +37,15 @@ context 'fizzbuzz' do
     end
 
     it 'Should return buzz when number is divisible by 5' do
-        expect(solver.fizzbuzz(20)).to eql('buzz')
-      end
+      expect(solver.fizzbuzz(20)).to eql('buzz')
+    end
 
-      it 'Should return fizzbuzz when number is divisible by 3 & 5' do
-        expect(solver.fizzbuzz(30)).to eql('fizzbuzz')
-      end
+    it 'Should return fizzbuzz when number is divisible by 3 & 5' do
+      expect(solver.fizzbuzz(30)).to eql('fizzbuzz')
+    end
 
-      it 'Should return number as a string when number is not divisible by 3 or 5' do
-        expect(solver.fizzbuzz(8)).to eql('8')
-      end
+    it 'Should return number as a string when number is not divisible by 3 or 5' do
+      expect(solver.fizzbuzz(8)).to eql('8')
+    end
   end
 end
